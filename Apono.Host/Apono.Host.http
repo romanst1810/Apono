@@ -1,0 +1,6 @@
+@Apono.Host_HostAddress = http://localhost:5147
+
+GET {{Apono.Host_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

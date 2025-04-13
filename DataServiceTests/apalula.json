@@ -1,0 +1,49 @@
+{
+  "citizens": [
+    {
+      "name": "Aco",
+      "roles": [ "Priest" ],
+      "allowed_places": [ "Aco Home" ]
+    },
+    {
+      "name": "Aro",
+      "roles": [ "High Priest", "Guard" ]
+    },
+    {
+      "name": "Baco",
+      "roles": [ "Farmer" ],
+      "allowed_places": [ "City Wall" ]
+    }
+  ],
+  "roles": [
+    {
+      "title": "Priest",
+      "allowed_places": [ "Temple" ]
+    },
+    {
+      "title": "Guard",
+      "allowed_places": [ "Armory", "City Wall" ]
+    },
+    {
+      "title": "Carrier",
+      "allowed_places": [],
+      "sub_roles": [ "Organizer" ]
+    },
+    {
+      "title": "High Priest",
+      "allowed_places": [ "Hidden Room", "City Wall" ],
+      "sub_roles": [ "Priest" ]
+    },
+    {
+      "title": "Farmer",
+      "allowed_places": [ "Farm" ],
+      "sub_roles": [ "Carrier" ]
+    },
+    {
+      "title": "Organizer",
+      "allowed_places": [ "Storage" ],
+      "sub_roles": [ "Farmer" ]
+    }
+  ]
+}
+
